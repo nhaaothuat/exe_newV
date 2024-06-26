@@ -53,7 +53,7 @@ const Navbar = () => {
                       className="text-gray-500 transition hover:text-gray-500/75"
                       to="/"
                     >
-                      Trang Chủ 
+                      Trang Chủ
                     </Link>
                   </li>
 
@@ -80,9 +80,12 @@ const Navbar = () => {
                   <li className={`group relative  `}>
                     <a className="text-gray-500 transition hover:text-gray-500/75 ">
                       Tài liệu và tin tức
-                     
                     </a>
-                    <ul className={`absolute shadow-lg   ease-in-out ${isScrolled ? "bg-white" : "bg-[#97E7E1]"} space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px]  max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500`}>
+                    <ul
+                      className={`absolute shadow-lg   ease-in-out ${
+                        isScrolled ? "bg-white" : "bg-[#97E7E1]"
+                      } space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px]  max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500`}
+                    >
                       <li className="border-b py-2 ">
                         <a className="hover:text-[#007bff] text-gray-600 text-[13px]  block">
                           Tài liệu học tập
@@ -105,8 +108,6 @@ const Navbar = () => {
                       </li> */}
                     </ul>
                   </li>
-
-                  
 
                   <li>
                     <Link
@@ -192,26 +193,7 @@ const Navbar = () => {
         >
           Hey! Come Check This Out 👋
         </a>
-{/* <MessengerCustomerChat
-    pageId="61561393622147"
-    appId="3426783117614088"
-    // htmlRef="<REF_STRING>"
-  /> */}
-        {/* <button className="rounded bg-white/20 p-1 hover:bg-white/10">
-          <span className="sr-only">Close</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fillRule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </button> */}
+                        
       </aside>
     </>
   );
